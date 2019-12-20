@@ -1,0 +1,133 @@
+header {
+  border-top: 1px solid #cccccc;
+  .navbar {
+    max-width: 1150px;
+    margin: 0 auto;
+    &__logo {
+      margin: 10px 20px;
+    }
+    &__number {
+      margin: 0 15px;
+      font-weight: 600;
+      color: #1aafb8;
+      font-size: 18px;
+    }
+    &__chat {
+      padding-left: 15px;
+      font-weight: 600;
+      border-left: 1px solid #cccccc;
+      > i {
+        padding-right: 10px;
+      }
+    }
+  }
+}
+.steps {
+  padding: 25px 0 50px;
+  background-color: rgba(0, 0, 0, 0.03);
+  .pagination {
+    justify-content: center;
+
+    .page-item {
+      margin-right: 7px;
+    }
+  }
+}
+
+.plans {
+  padding: 0 10%;
+  background-color: rgba(0, 0, 0, 0.03);
+  &__list {
+    list-style: none;
+    height: 150px;
+    font-size: 14px;
+    padding-left: 0;
+    text-align: left;
+    li::before {
+      content: "\2022";
+      color: tomato;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+    }
+  }
+  .card {
+    margin: 0 2.5px;
+    &-header {
+      text-align: center;
+      z-index: 2;
+
+      sup {
+        font-size: 10px;
+        margin-left: 3px;
+      }
+    }
+    &-footer {
+      text-align: center;
+      height: 130px;
+    }
+    &__popular {
+      position: absolute;
+      top: -40px;
+      color: white;
+      background-color: orange;
+      text-transform: uppercase;
+
+      text-align: center;
+      font-weight: 100;
+      font-size: 14px;
+      border-radius: 5px;
+      padding: 13px 0 15px;
+      width: 98%;
+      margin: 0 2.5px;
+      z-index: 0;
+    }
+    .btn {
+      color: white;
+      background-color: orange;
+      width: 90%;
+      display: none;
+    }
+    &:hover {
+      box-shadow: 2px 2px 2px 1px rgb(131, 129, 129) !important;
+      transition: all 0.5s ease-out;
+    }
+  }
+}
+.complete {
+  background-color: #4b4b4b;
+  &__container {
+    max-width: 900px;
+  }
+  padding: 20px 0;
+  &__header {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+  .row {
+    justify-content: space-between;
+    ul > li {
+      color: white;
+      padding: 10px 0;
+      font-size: 13px;
+      font-weight: 100;
+
+      > i {
+        margin-right: 5px;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+// active clss fore js
+.hide {
+  display: none;
+}
+.active {
+  display: inline-block !important;
+}

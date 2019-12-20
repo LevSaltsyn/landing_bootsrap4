@@ -1,0 +1,159 @@
+header {
+  border-top: 1px solid #cccccc;
+}
+
+header .navbar {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+header .navbar__logo {
+  margin: 10px 20px;
+}
+
+header .navbar__number {
+  margin: 0 15px;
+  font-weight: 600;
+  color: #1aafb8;
+  font-size: 18px;
+}
+
+header .navbar__chat {
+  padding-left: 15px;
+  font-weight: 600;
+  border-left: 1px solid #cccccc;
+}
+
+header .navbar__chat > i {
+  padding-right: 10px;
+}
+
+.steps {
+  padding: 25px 0 50px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.steps .pagination {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.steps .pagination .page-item {
+  margin-right: 7px;
+}
+
+.plans {
+  padding: 0 10%;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.plans__list {
+  list-style: none;
+  height: 150px;
+  font-size: 14px;
+  padding-left: 0;
+  text-align: left;
+}
+
+.plans__list li::before {
+  content: "\2022";
+  color: tomato;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
+.plans .card {
+  margin: 0 2.5px;
+}
+
+.plans .card-header {
+  text-align: center;
+  z-index: 2;
+}
+
+.plans .card-header sup {
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+.plans .card-footer {
+  text-align: center;
+  height: 130px;
+}
+
+.plans .card__popular {
+  position: absolute;
+  top: -40px;
+  color: white;
+  background-color: orange;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 13px 0 15px;
+  width: 98%;
+  margin: 0 2.5px;
+  z-index: 0;
+}
+
+.plans .card .btn {
+  color: white;
+  background-color: orange;
+  width: 90%;
+  display: none;
+}
+
+.plans .card:hover {
+  -webkit-box-shadow: 2px 2px 2px 1px #838181 !important;
+          box-shadow: 2px 2px 2px 1px #838181 !important;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.complete {
+  background-color: #4b4b4b;
+  padding: 20px 0;
+}
+
+.complete__container {
+  max-width: 900px;
+}
+
+.complete__header {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.complete .row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.complete .row ul > li {
+  color: white;
+  padding: 10px 0;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.complete .row ul > li > i {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  display: inline-block !important;
+}
+/*# sourceMappingURL=style.css.map */

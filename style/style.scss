@@ -1,3 +1,4 @@
+
 header {
   border-top: 1px solid #cccccc;
   .navbar {
@@ -27,13 +28,12 @@ header {
   background-color: rgba(0, 0, 0, 0.03);
   .pagination {
     justify-content: center;
-
     .page-item {
       margin-right: 7px;
     }
   }
+  h4 { padding: 15px 0;}
 }
-
 .plans {
   padding: 0 10%;
   background-color: rgba(0, 0, 0, 0.03);
@@ -131,3 +131,4 @@ header {
 .active {
   display: inline-block !important;
 }
+

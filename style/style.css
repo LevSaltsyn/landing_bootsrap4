@@ -43,6 +43,10 @@ header .navbar__chat > i {
   margin-right: 7px;
 }
 
+.steps h4 {
+  padding: 15px 0;
+}
+
 .plans {
   padding: 0 10%;
   background-color: rgba(0, 0, 0, 0.03);

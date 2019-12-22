@@ -1,0 +1,23 @@
+@media (max-width: 575.98px) {
+    .steps {
+      padding: 0 !important;
+    }
+    .steps .pagination {
+      display: block;
+    }
+    .steps .pagination .page-item {
+      margin-right: 0 !important;
+    }
+    .steps h4 {
+      margin: 0 !important;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .plans {
+      padding: 8% 3% !important;
+    }
+    .plans__list {
+      height: 100% !important;
+    }
+  }
